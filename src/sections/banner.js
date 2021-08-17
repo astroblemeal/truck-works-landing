@@ -3,6 +3,7 @@ import banner from 'assets/images/banner.jpg';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
+import { NavLink } from 'components/link';
 
 const Banner = () => {
   return (
@@ -16,16 +17,22 @@ const Banner = () => {
             {/*<Text as="p" sx={styles.text}>
              text
             </Text>*/}
-            <Button variant="primary" sx={styles.button}>
-              Contact
+          <div style={{display: "flex"}}>
+            <Button  variant="primary" sx={styles.button}>
+            <a style={{textDecoration: "none", color: "white"}} href="mailto:info@truckworks.co.uk">Email Us</a>
             </Button>
+            <Button style={{marginLeft: "10px"}}  variant="primary" sx={styles.button}>
+             <a style={{textDecoration: "none", color: "white"}} href="tel:07798947762">Call Us</a>
+            </Button>
+          </div>
             {/*<Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />
               <Image src={dropbox} alt="dropbox" />
             </Box>*/}
           </Box>
-          <Box sx={styles.illustration}>
+
+          <Box  sx={styles.illustration}>
             <Image style={{borderRadius: "5px"}} width={800} height={900}  src={banner} alt="banner" />
           </Box>
         </Box>

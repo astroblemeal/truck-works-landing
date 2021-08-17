@@ -19,7 +19,7 @@ export default function Footer() {
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
             <Logo />
-            <Text as="span">
+            <Text style={{marginLeft: "15px"}} as="span">
               Copyright {new Date().getFullYear()} Truck Works , Ltd
             </Text>
           </Box>
