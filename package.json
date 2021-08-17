@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "framer-motion": "^2.7.5",
-    "next": "9.5.3",
+    "next": "^11.1.0",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
     "polished": "^3.6.7",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-ga": "^3.1.2",
     "react-icons": "^3.11.0",
     "react-modal": "^3.11.2",
@@ -30,7 +30,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "prettier": "^2.1.2",
-    "next-sitemap": "^1.2.4"
+    "next-sitemap": "^1.2.4",
+    "prettier": "^2.1.2"
   }
 }
