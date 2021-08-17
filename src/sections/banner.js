@@ -22,7 +22,7 @@ const Banner = () => {
             <a style={{textDecoration: "none", color: "white"}} href="mailto:info@truckworks.co.uk">Email Us</a>
             </Button>
             <Button style={{marginLeft: "10px"}}  variant="primary" sx={styles.button}>
-             <a style={{textDecoration: "none", color: "white"}} href="tel:07798947762">Call Us</a>
+             <a style={{textDecoration: "none", color: "white"}} href="tel:07798947762">Phone Us</a>
             </Button>
           </div>
             {/*<Box sx={styles.clients}>
