@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, Box } from 'theme-ui';
 import { useEffect } from 'react';
 import { GrClose } from 'react-icons/gr';
