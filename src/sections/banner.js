@@ -33,13 +33,14 @@ const Banner = () => {
           </Box>
 
           <Box  sx={styles.illustration}>
-            <Image style={{borderRadius: "5px"}} width={800} height={900}  src={banner} alt="banner" />
+            <Image style={{borderRadius: "5px",  border: "1px solid #ddd", padding: "10px"}} width={800} height={900}  src={banner} alt="banner" />
           </Box>
         </Box>
       </Container>
     </Box>
   );
 };
+
 
 export default Banner;
 
