@@ -3,7 +3,7 @@ import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 import { LearnMore } from 'components/link';
 import Image from 'components/image';
-import curtain7 from 'assets/images/cur7.png';
+import curtain7 from 'assets/images/cur7.jpg';
 import curtain18 from 'assets/images/cur18.png';
 import curtain26 from 'assets/images/cur26.png';
 import artic from 'assets/images/artic.png';
