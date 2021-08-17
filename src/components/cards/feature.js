@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, Box, Text } from 'theme-ui';
 import { rgba } from 'polished';
 

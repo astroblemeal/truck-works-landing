@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { useState } from 'react';
 import { jsx, Box, Container, Button } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
