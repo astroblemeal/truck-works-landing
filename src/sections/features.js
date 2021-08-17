@@ -37,7 +37,7 @@ const data = [
     color: 'black',
     value: 'Artic',
     title: 'Curtainsiders trailers',
-    image: curtain26,
+    image: artic,
   },
 ];
 

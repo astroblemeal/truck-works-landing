@@ -50,7 +50,7 @@ const styles = {
   },
   title: {
     fontWeight: 'bold',
-    fontSize: ['30px', null, null, null, '42px', '40px', '60px'],
+    fontSize: ['30px', null, null, null, '42px', '40px', '40px'],
     lineHeight: 1.33,
     letterSpacing: '-1px',
     color: 'textSecondary',
