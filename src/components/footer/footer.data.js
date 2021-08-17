@@ -5,27 +5,27 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        label: 'accounts@truckworksltd.com',
+        label: 'accounts@truckworksltd.co.uk',
       },
       {
         path: '#!',
-        label:  'transport@truckworksltd.com',
+        label:  'transport@truckworksltd.co.uk',
       },
       {
         path: '#!',
-        label: 'office@truckworksltd.com',
+        label: 'office@truckworksltd.co.uk',
       },
       {
         path: '#!',
-        label: 'info@truckworksltd.com',
+        label: 'info@truckworksltd.co.uk',
       },
       {
         path: '#!',
-        label: 'alan@truckworksltd.com',
+        label: 'alan@truckworksltd.co.uk',
       },
       {
         path: '#!',
-        label: 'chris@truckworksltd.com',
+        label: 'chris@truckworksltd.co.uk',
       },
 
     ],
