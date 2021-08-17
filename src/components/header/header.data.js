@@ -8,11 +8,11 @@ export default [
     label: 'About Us',
   },
   {
-    path: 'feature',
+    path: 'features',
     label: 'Services',
   },
   {
-    path: 'faq',
+    path: 'contact',
     label: 'Contact',
   },
 ];

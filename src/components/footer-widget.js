@@ -4,7 +4,7 @@ import { rgba } from 'polished';
 
 const FooterWidget = ({ title, items }) => {
   return (
-    <Box sx={styles.footerWidget}>
+    <Box id="contact" sx={styles.footerWidget}>
       <Heading as="h4">{title}</Heading>
       <ul>
         {items.map(({ path, label }, i) => (

@@ -43,7 +43,7 @@ const data = [
 
 const Features = () => {
   return (
-    <Box as="section" variant="section.features">
+    <Box as="section" id="features" variant="section.features">
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.leftContent}>
