@@ -10,11 +10,11 @@ export default function Footer() {
   return (
     <Box as="footer" variant="layout.footer">
       <Container>
-       {/* <Box sx={styles.footerTopInner}>
+       { <Box sx={styles.footerTopInner}>
           {menuItems.map(({ id, title, items }) => (
             <FooterWidget key={id} title={title} items={items} />
           ))}
-        </Box>*/}
+        </Box>}
       </Container>
       <Container>
         <Box sx={styles.footerInner}>

@@ -4,34 +4,41 @@ import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 import { LearnMore } from 'components/link';
 import Image from 'components/image';
-
+import curtain7 from 'assets/images/cur7.png';
+import curtain18 from 'assets/images/cur18.png';
+import curtain26 from 'assets/images/cur26.png';
+import artic from 'assets/images/artic.png';
 import checkFilledCircle from 'assets/images/icons/check-circle-filled.png';
 import { Fragment } from 'react';
 
 const data = [
   {
     id: 1,
-    color: '#28D1DC',
-    value: '80K+',
-    title: 'We have more than customers',
+    color: 'black',
+    value: '7.5 tonne',
+    title: 'curtainsiders',
+    image: curtain7,
   },
   {
     id: 2,
-    color: '#FF753A',
-    value: '150+',
-    title: 'Free online tutorials videos available',
+    color: 'black',
+    value: '18 tonne ',
+    title: 'curtainsiders',
+    image: curtain18,
   },
   {
     id: 3,
-    color: '#FA578E',
-    value: '90+',
-    title: 'Daily updated blog post maintain',
+    color: 'black',
+    value: '26 tonne',
+    title: ' curtainsiders',
+     image: curtain26,
   },
   {
     id: 4,
-    color: '#28DCB2',
-    value: '& 3M',
-    title: 'Job posted everyday`s with  qualification',
+    color: 'black',
+    value: 'Artic',
+    title: 'Curtainsiders trailers',
+    image: artic,
   },
 ];
 
@@ -50,23 +57,38 @@ const Features = () => {
               sx={styles.heading}
               title={
                 <Fragment>
-                  Smart Jackpots <br />
-                  that you may love this anytime &amp; anywhere
+                  We offer friendly approachable service.
                 </Fragment>
               }
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description=""
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Service all aspects of the UK with our fleet.
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+                Same day deliveries
             </Text>
-            <Box sx={styles.explore}>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Next Day delivery
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Dedicated couriers
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+             Confirmation calls & emails
+            </Text>
+            <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+              Fully manned office
+            </Text>
+            {/*<Box sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />
-            </Box>
+            </Box>*/}
           </Box>
         </Box>
       </Container>
@@ -93,21 +115,12 @@ const styles = {
     alignItems: 'center',
   },
   leftContent: {
-    gap: [20, 20, 20, 20, 30, 45],
     display: ['grid', 'grid'],
     gridTemplateColumns: 'repeat(2, 1fr)',
-    alignItems: 'flex-start',
-    '> div': {
-      ':first-of-type': {
-        mt: ['65px'],
-      },
-      ':last-of-type': {
-        mt: ['-65px'],
-      },
-    },
+    marginBottom: '10px',
   },
   rightContent: {
-    // ml: ['120px'],
+    marginTop: "10px",
   },
   heading: {
     textAlign: 'left',
@@ -127,7 +140,7 @@ const styles = {
   },
   listItem: {
     fontWeight: 500,
-    fontSize: 16,
+    fontSize: 14,
     lineHeight: 2.81,
     display: 'flex',
     alignItems: 'center',

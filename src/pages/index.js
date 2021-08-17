@@ -18,7 +18,8 @@ export default function IndexPage() {
       <Layout>
         <SEO title="Truck Works Ltd" />
         <Banner />
-        <Faq />
+        <Widgets />
+        <Features />
       </Layout>
     </ThemeProvider>
   );

@@ -4,7 +4,7 @@ import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
 import Image from 'components/image';
 
-import banner from 'assets/images/widgets.png';
+import banner from 'assets/images/logo1.png';
 import checkFilledCircle from 'assets/images/icons/check-circle-filled.png';
 
 const Widgets = () => {
@@ -13,25 +13,29 @@ const Widgets = () => {
       <Container>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.leftContent}>
-            <Image src={banner} alt="widgets" />
+            <Image width={400} height={400} src={banner} alt="widgets" />
           </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Ultimate widgets of collection that will be used anywhere"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              title="About Us"
+              description="Our management team have a combined 50 years + pedigree in the transport sector at senior management level.
+              We understand the current turmoil facing the logistics industry, yet we still provide certainty in these uncertain times. Truck works can tailor bespoke solutions with a professional and competitive edge.
+              We are a customer-service driven company and take pride in the ranges of products we can deliver. Our services are fully comprehensive from start to finish."
             />
-            <Text sx={styles.listItem} as="p">
+            {/*<Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              one
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
-            </Text>
+             two
+            </Text>*/}
+            {/*
             <Box sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />
             </Box>
+            */}
           </Box>
         </Box>
       </Container>

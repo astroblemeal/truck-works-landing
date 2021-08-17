@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
-import banner from 'assets/images/banner.png';
+import banner from 'assets/images/banner.jpg';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
@@ -12,22 +12,22 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              truck trucks trucks
+             Truck Works Ltd, an experienced and dynamic haulage & logistics specialist.
             </Heading>
-            <Text as="p" sx={styles.text}>
-              Hire hire hire, rent rent rent
-            </Text>
+            {/*<Text as="p" sx={styles.text}>
+             text
+            </Text>*/}
             <Button variant="primary" sx={styles.button}>
-              Email Us
+              Contact
             </Button>
-            <Box sx={styles.clients}>
+            {/*<Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />
               <Image src={dropbox} alt="dropbox" />
-            </Box>
+            </Box>*/}
           </Box>
           <Box sx={styles.illustration}>
-            <Image src={banner} alt="banner" />
+            <Image style={{borderRadius: "5px"}} width={800} height={900}  src={banner} alt="banner" />
           </Box>
         </Box>
       </Container>

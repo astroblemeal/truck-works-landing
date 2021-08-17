@@ -2,9 +2,13 @@
 import { jsx, Box, Text } from 'theme-ui';
 import { rgba } from 'polished';
 
+
+
+import Image from 'components/image';
 const Feature = ({ feature }) => {
   return (
     <Box sx={styles.featureItem}>
+    <Image width={200} height={200} src={feature.image} alt="widgets" />
       <Text as="p" sx={styles.value} style={{ color: feature?.color }}>
         {feature.value}
       </Text>
@@ -19,7 +23,9 @@ export default Feature;
 
 const styles = {
   featureItem: {
-    backgroundColor: '#fff',
+ backgroundImage: `url("")`,
+ marginBottom: "10px",
+    backgroundColor: 'white',
     boxShadow: '0px 25px 100px rgba(69, 88, 157, 0.08)',
     borderRadius: 10,
     display: 'flex',
@@ -42,7 +48,7 @@ const styles = {
   },
   value: {
     fontWeight: 700,
-    fontSize: [30, 30, 30, 30, 50, 60, 72],
+    fontSize: [30, 30, 30, 30, 50, 30, 32],
     lineHeight: [1.83, 0.76],
     letterSpacing: '-1.5px',
   },

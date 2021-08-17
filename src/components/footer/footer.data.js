@@ -1,130 +1,119 @@
 export const menuItems = [
   {
     id: 1,
-    title: 'Company',
+    title: 'Email Us:',
     items: [
       {
         path: '#!',
-        label: 'About',
+        label: 'accounts@truckworksltd.com',
       },
       {
         path: '#!',
-        label: 'Affiliate',
+        label:  'transport@truckworksltd.com',
       },
       {
         path: '#!',
-        label: 'Careers & Culture    ',
+        label: 'office@truckworksltd.com',
       },
       {
         path: '#!',
-        label: 'Blog',
+        label: 'info@truckworksltd.com',
       },
       {
         path: '#!',
-        label: 'Press',
+        label: 'alan@truckworksltd.com',
       },
+      {
+        path: '#!',
+        label: 'chris@truckworksltd.com',
+      },
+
     ],
   },
   {
     id: 2,
-    title: 'About Us',
+    title: 'Phone Us:',
     items: [
       {
         path: '#!',
-        label: 'Support Center',
-      },
-      {
-        path: '#!',
-        label: 'Customer Support',
-      },
-      {
-        path: '#!',
-        label: 'About Us',
-      },
-      {
-        path: '#!',
-        label: 'Copyright',
-      },
-      {
-        path: '#!',
-        label: 'Popular Campaign',
+        label: '07798947762',
       },
     ],
   },
-  {
-    id: 3,
-    title: 'Our Information',
-    items: [
-      {
-        path: '#!',
-        label: 'Return Policy ',
-      },
-      {
-        path: '#!',
-        label: 'Privacy Policy',
-      },
-      {
-        path: '#!',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
-        label: 'Store Hours',
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: 'My Account',
-    items: [
-      {
-        path: '#!',
-        label: 'Press inquiries',
-      },
-      {
-        path: '#!',
-        label: 'Social media ',
-      },
-      {
-        path: '#!',
-        label: 'directories',
-      },
-      {
-        path: '#!',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '#!',
-        label: 'Permissions',
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: 'Policy',
-    items: [
-      {
-        path: '#!',
-        label: 'Application security',
-      },
-      {
-        path: '#!',
-        label: 'Software principles',
-      },
-      {
-        path: '#!',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '#!',
-        label: 'Responsible supply chain',
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: 'Our Information',
+  //   items: [
+  //     {
+  //       path: '#!',
+  //       label: 'Return Policy ',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Privacy Policy',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Terms & Conditions',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Site Map',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Store Hours',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   title: 'My Account',
+  //   items: [
+  //     {
+  //       path: '#!',
+  //       label: 'Press inquiries',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Social media ',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'directories',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Images & B-roll',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Permissions',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Policy',
+  //   items: [
+  //     {
+  //       path: '#!',
+  //       label: 'Application security',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Software principles',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Unwanted software policy',
+  //     },
+  //     {
+  //       path: '#!',
+  //       label: 'Responsible supply chain',
+  //     },
+  //   ],
+  // },
 ];
 
 export const footerNav = [
