@@ -20,8 +20,7 @@ export default Feature;
 
 const styles = {
   featureItem: {
- backgroundImage: `url("")`,
- marginBottom: "10px",
+    marginBottom: "20px",
     backgroundColor: 'white',
     boxShadow: '0px 25px 100px rgba(69, 88, 157, 0.08)',
     borderRadius: 10,
