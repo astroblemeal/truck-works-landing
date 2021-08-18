@@ -11,6 +11,7 @@ import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
 import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
+import Contact from 'sections/contact';
 
 export default function IndexPage() {
   return (
@@ -20,6 +21,7 @@ export default function IndexPage() {
         <Banner />
         <Widgets />
         <Features />
+        <Contact />
       </Layout>
     </ThemeProvider>
   );
