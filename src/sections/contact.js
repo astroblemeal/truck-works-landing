@@ -87,7 +87,8 @@ function Contact() {
 export default Contact;
 
 const buttonStyle = {
-    marginTop: "10px"
+    marginTop: "10px",
+    width: "200px"
 }
 
 const textFieldStyle = {
