@@ -3,7 +3,10 @@ import { useState } from "react";
 import { TextField } from "@material-ui/core";
 import axios from "axios";
 import { emailValidator } from "../functions/validator";
-import {  Button } from 'theme-ui';
+import {  Button,Text, heading } from 'theme-ui';
+import SectionHeading from 'components/section-heading';
+import { Fragment } from 'react';
+
 
 
 
@@ -18,15 +21,15 @@ function Contact() {
     let isEmailVerified = emailValidator(mail);
     if (isEmailVerified === true) {
       const tableData = { name, mail, number, message };
-      axios
-        .post(
-          "",
-          tableData
-        )
-        .then((response) => {
-          alert("Thank you our team will reach out to you as soon as possible.");
-        });
-
+    //   axios
+    //     .post(
+    //       "",
+    //       tableData
+    //     )
+    //     .then((response) => {
+    //       alert("Thank you our team will reach out to you as soon as possible.");
+    //     });
+     alert("Thank you our team will reach out to you as soon as possible.")
       setName("");
       setNumber("");
       setMail("");
@@ -37,14 +40,24 @@ function Contact() {
   };
 
   return (
-  <div >
-      <form style={{display: "flex", flexDirection: "column", margin: "20px 60px 20px 60px"}}>
+  <Fragment>
+      <form style={formStyle}>
+         <SectionHeading
+              sx={headingStyles}
+              title={
+                <Fragment>
+                  Drop us a line!
+                </Fragment>
+              }
+              description="We usually respond within 24 business hours!"
+            />
+         
         <TextField
           onChange={(e) => setName(e.target.value)}
           value={name}
         style={textFieldStyle}
        
-          label='name'
+          label='Name'
           variant="outlined"
         />
 
@@ -54,7 +67,7 @@ function Contact() {
           value={mail}
         style={textFieldStyle}
        
-          label="Mail"
+          label="Email"
           variant="outlined"
         />
 
@@ -63,34 +76,62 @@ function Contact() {
           onChange={(e) => setNumber(e.target.value)}
          style={textFieldStyle}
       
-          label='number'
+          label='Telephone number'
           variant="outlined"
         />
         <TextField
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           style={textFieldStyle}
-          label='message'
+          label='Message'
           multiline
           rows={4}
           variant="outlined"
         />
-        <Button style={buttonStyle}  variant="primary">
-            <a style={{textDecoration: "none", color: "white"}} href="tel:07798947762">Send</a>
+        <Button onClick={submitHandler}  style={buttonStyle} >
+            <a style={{textDecoration: "none", color: "white"}} href="tel:07798947762">{mail.length === 0 ? "*Email " : "Send"} </a>
         </Button>
       </form>
-
-     </div>
+     </Fragment>
   );
 }
 
 export default Contact;
 
 const buttonStyle = {
-    marginTop: "10px",
+    marginBottom: "10px",
     width: "200px"
 }
 
 const textFieldStyle = {
-      marginTop: "10px"
+      marginBottom: "10px"
 }
+
+const headingStyles = {
+
+    background: "white",
+    textAlign: 'left',
+    mb: ['20px'],
+    mt: [0, 0, '-70px'],
+    h2: {
+      fontSize: ['28px', '28px', '28px', '28px', '36px', '40px'],
+      lineHeight: [1.25, 1.5],
+      letterSpacing: '-1.5px',
+      br: {
+        display: ['none', 'none', 'none', 'block'],
+      },
+    },
+    p: {
+      mt: ['15px', '10px'],
+    },
+  }
+
+  const formStyle = {
+      display: "flex", 
+      flexDirection: "column", 
+      background: "white", 
+      paddingRight: "200px", 
+      paddingLeft: "200px", 
+      paddingTop: "90px", 
+      paddingBottom: "40px"
+  }

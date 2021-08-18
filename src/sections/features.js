@@ -1,4 +1,5 @@
 import { jsx, Box, Container, Text } from 'theme-ui';
+
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 import { LearnMore } from 'components/link';
@@ -85,9 +86,9 @@ const Features = () => {
               <Image src={checkFilledCircle} alt="check icon" />
               Fully manned office
             </Text>
-            {/*<Box sx={styles.explore}>
+            <Box onClick={() => alert("Under construction!") } sx={styles.explore}>
               <LearnMore path="#!" label="Explore More" />
-            </Box>*/}
+            </Box>
           </Box>
         </Box>
       </Container>
