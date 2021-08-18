@@ -10,9 +10,12 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
+=======
+>>>>>>> 18621bbdf97522a24fc9c86be206a30c3754a57f
     "file-loader": "^6.2.0",
     "framer-motion": "^2.7.5",
     "next": "^11.1.1-canary.9",

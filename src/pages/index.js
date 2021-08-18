@@ -11,7 +11,10 @@ import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
 import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
+<<<<<<< HEAD
 import Contact from 'sections/contact';
+=======
+>>>>>>> 18621bbdf97522a24fc9c86be206a30c3754a57f
 
 export default function IndexPage() {
   return (
@@ -21,7 +24,10 @@ export default function IndexPage() {
         <Banner />
         <Widgets />
         <Features />
+<<<<<<< HEAD
         <Contact />
+=======
+>>>>>>> 18621bbdf97522a24fc9c86be206a30c3754a57f
       </Layout>
     </ThemeProvider>
   );
