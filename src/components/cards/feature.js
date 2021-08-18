@@ -52,9 +52,10 @@ const styles = {
   title: {
     fontSize: ['14px', '16px', '16px', '15px', '17px'],
     lineHeight: [1.62, 1.48],
+    fontWeight: "bold",
     letterSpacing: '-0.2px',
     color: 'heading',
     mt: ['1px', '20px'],
-    color: rgba('#0F2137', 0.7),
+    color: "black",
   },
 };
