@@ -1,8 +1,6 @@
 import { jsx, Box, Text } from 'theme-ui';
 import { rgba } from 'polished';
 
-
-
 import Image from 'components/image';
 const Feature = ({ feature }) => {
   return (

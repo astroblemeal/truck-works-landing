@@ -3,7 +3,7 @@ import SectionHeader from 'components/section-heading';
 import Accordion from 'components/accordion/accordion';
 const faqs = [
   {
-    title: 'How to contact with riders emergency ?',
+    title: 'question ?',
     contents: (
       <div>
        ...
@@ -11,7 +11,7 @@ const faqs = [
     ),
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'question?',
     contents: (
       <div>
         ...
@@ -19,7 +19,7 @@ const faqs = [
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: `question?`,
     contents: (
       <div>
         ...
@@ -27,7 +27,7 @@ const faqs = [
     ),
   },
   {
-    title: `New update fixed all bug and issues`,
+    title: `question?`,
     contents: (
       <div>
         ...
@@ -40,7 +40,7 @@ export default function Faq() {
     <Box as="section" id="faq" variant="section.faq">
       <Container>
         <SectionHeader
-          title="Do you have any quesitons"
+          title="Do you have any quesitons?"
           description="Our support team ready to help you, please contact with them"
         />
         <Box

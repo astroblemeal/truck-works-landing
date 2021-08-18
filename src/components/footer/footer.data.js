@@ -3,6 +3,10 @@ export const menuItems = [
     id: 1,
     title: "Email Us:",
     items: [
+    {
+        path: "#!",
+        label: "info@truckworksltd.co.uk",
+      },
       {
         path: "#!",
         label: "accounts@truckworksltd.co.uk",
@@ -10,14 +14,6 @@ export const menuItems = [
       {
         path: "#!",
         label: "transport@truckworksltd.co.uk",
-      },
-      {
-        path: "#!",
-        label: "office@truckworksltd.co.uk",
-      },
-      {
-        path: "#!",
-        label: "info@truckworksltd.co.uk",
       },
     ],
   },
