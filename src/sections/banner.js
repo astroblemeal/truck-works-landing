@@ -12,7 +12,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-             Truck Works Ltd, an experienced and dynamic haulage & logistics specialist.
+             Truck Works Ltd. an experienced and dynamic haulage & logistics specialist.
             </Heading>
             {/*<Text as="p" sx={styles.text}>
              text
