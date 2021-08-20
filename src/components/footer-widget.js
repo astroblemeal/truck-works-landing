@@ -1,40 +1,40 @@
-import { jsx, Box, Heading } from 'theme-ui';
-import { Link } from 'components/link';
-import { rgba } from 'polished';
+import { jsx, Box, Heading } from "theme-ui"
+import { Link } from "components/link"
+import { rgba } from "polished"
 
 const FooterWidget = ({ title, items }) => {
   return (
-    <Box id="contact" sx={styles.footerWidget}>
-      <Heading as="h4">{title}</Heading>
+    <Box sx={styles.footerWidget}>
+      <Heading as='h4'>{title}</Heading>
       <ul>
         {items.map(({ path, label }, i) => (
           <li key={i}>
-            <Link path={path} key={i} label={label} variant="footer" />
+            <Link path={path} key={i} label={label} variant='footer' />
           </li>
         ))}
       </ul>
     </Box>
-  );
-};
+  )
+}
 
-export default FooterWidget;
+export default FooterWidget
 
 const styles = {
   footerWidget: {
     h4: {
-      color: 'heading',
-      fontSize: '18px',
+      color: "heading",
+      fontSize: "18px",
       fontWeight: 500,
       lineHeight: 1.68,
-      letterSpacing: 'heading',
+      letterSpacing: "heading",
     },
     ul: {
-      listStyle: 'none',
-      margin: '28px 0 0',
+      listStyle: "none",
+      margin: "28px 0 0",
       padding: 0,
       a: {
-        color: rgba('#02073E', 0.8),
+        color: rgba("#02073E", 0.8),
       },
     },
   },
-};
+}

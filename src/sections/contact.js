@@ -6,8 +6,10 @@ import { emailValidator } from "../functions/validator"
 import { Button, Text, heading } from "theme-ui"
 import SectionHeading from "components/section-heading"
 import { Fragment } from "react"
+import useMediaQuery from "../functions/useMediaQuery"
 
 function Contact() {
+  const isDesktop = useMediaQuery("(min-width: 768px)")
   const [name, setName] = useState("")
   const [number, setNumber] = useState("")
   const [mail, setMail] = useState("")
@@ -37,8 +39,14 @@ function Contact() {
   }
 
   return (
-    <Fragment>
-      <form onSubmit={submitHandler} style={formStyle}>
+    <div id='contact'>
+      <form
+        onSubmit={submitHandler}
+        style={{
+          backgroundColor: "#fbfbfd",
+          marginRight: isDesktop ? "100px" : "20px",
+          marginLeft: isDesktop ? "100px" : "20px",
+        }}>
         <SectionHeading
           sx={headingStyles}
           title={<Fragment>Drop us a line!</Fragment>}
@@ -87,7 +95,7 @@ function Contact() {
           </a>
         </Button>
       </form>
-    </Fragment>
+    </div>
   )
 }
 
@@ -100,10 +108,10 @@ const buttonStyle = {
 
 const textFieldStyle = {
   marginBottom: "10px",
+  width: "100%",
 }
 
 const headingStyles = {
-  background: "white",
   textAlign: "left",
   mb: ["20px"],
   mt: [0, 0, "-70px"],
@@ -118,14 +126,4 @@ const headingStyles = {
   p: {
     mt: ["15px", "10px"],
   },
-}
-
-const formStyle = {
-  display: "flex",
-  flexDirection: "column",
-  background: "white",
-  paddingRight: "200px",
-  paddingLeft: "200px",
-  paddingTop: "90px",
-  paddingBottom: "40px",
 }
